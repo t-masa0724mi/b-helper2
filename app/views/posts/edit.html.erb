@@ -1,0 +1,16 @@
+<div class="contents row">
+  <div class="container">
+    <h3>編集する</h3>
+    <%= form_with model: @post, local: true do |f| %>
+      <div class='input-birth-wrap'>
+          <%= f.date_field :game_day %>
+      </div>
+      <div class="weight-bold-text">
+        時間
+      </div>
+      <%= f.collection_select(:game_time_id, GameTime.all, :id, :name, {}, {class:"genre-select"}) %>
+      <%= f.text_field :detail, placeholder: "詳細" %> 
+      <%= f.submit "SEND" %>
+    <% end %>
+  </div>
+</div>

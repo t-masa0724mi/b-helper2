@@ -1,0 +1,19 @@
+<div class="contents row">
+  <div class="container">
+    <div class="post-date">
+      <%= @post.game_day %>
+    </div>
+    <div class="post-time">
+      <%= @post.game_time.name %>
+    </div>
+    <div class="post-detail">
+      <%= @post.detail %>
+    </div>
+    <span class="name">
+      <a href="/users/<%= @post.user.id %>">
+        <span>投稿者</span><%= @post.user.nickname %>
+      </a>
+    </span>
+    <%= link_to "メッセージを送る", root_path %>
+  </div>
+</div>
