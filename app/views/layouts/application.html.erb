@@ -20,6 +20,7 @@
               <li>
                 <%= link_to "マイページ", "/users/#{current_user.id}" %>
                 <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+                <%= link_to "メッセージ", new_room_path %>
               </li>
             </ul>
           </span>
