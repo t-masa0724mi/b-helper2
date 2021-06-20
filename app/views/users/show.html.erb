@@ -1,6 +1,6 @@
 <div class="contents row">
   <p><%= @nickname %>さんの募集一覧</p>
-  <%= link_to "メッセージを送る" %>
+    <%= link_to "メッセージを送る", new_room_path %>
   <% @posts.each do |post| %>
   <div class="posts">
     <div class="post-date">
