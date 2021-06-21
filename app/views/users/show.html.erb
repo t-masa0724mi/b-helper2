@@ -1,17 +1,19 @@
 <div class="contents row">
-  <p><%= @nickname %>さんの募集一覧</p>
-    <%= link_to "メッセージを送る", new_room_path %>
-  <% @posts.each do |post| %>
-  <div class="posts">
-    <div class="post-date">
-      <%= post.game_day %>
-    </div>
-    <div class="post-time">
-      <%= post.game_time.name %>
-    </div>
-    <div class="post-detail">
-      <%= post.detail %>
-    </div>
-  </div>
-<% end %>
+  <div class="container">
+    <p><%=link_to @nickname, user_path %>さんの募集一覧</p>
+      <%= link_to "メッセージを送る", new_room_path %>
+    <% @posts.each do |post| %>
+      <div class="posts">
+        <div class="post-date">
+          <%= post.game_day %>
+        </div>
+        <div class="post-time">
+          <%= post.game_time.name %>
+        </div>
+        <div class="post-detail">
+          <%= post.detail %>
+        </div>
+      </div>
+    <% end %>
+  </div>  
 </div>
