@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BHelper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>熱闘草野球</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/742ceb3765.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header class="header">
       <div class="header__bar row">
-        <h1 class="grid-6"><a href="/">b-helper</a></h1>
+        <h1 class="grid-6"><a href="/"><i class="fas fa-baseball-ball"></i>熱闘草野球</a></h1>
         <% if user_signed_in? %>
         <div class="user_nav grid-6">
           <span><%= current_user.nickname %>
@@ -37,7 +39,7 @@
     <%= yield %>
     <footer>
       <p>
-        Copyright b-helper 2021.
+        Copyright 熱闘草野球 2021.
       </p>
     </footer>
   </body>
