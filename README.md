@@ -18,7 +18,8 @@
 
 | Column                | Type           | Options                          |
 |-----------------------|----------------|----------------------------------|
-|                       |                |                                  |
+| name                  | string         | null: false                      |
+
 
 ### Association
 -has_many :room_users
@@ -30,6 +31,7 @@
 | Column                | Type            | Options                         |
 |-----------------------|-----------------|---------------------------------|
 | user                  | references      | null: false, foreign_key: true  |
+| room                  | references      | null: false, foreign_key: true  |
 
 ### Association
 -belongs_to :room
@@ -53,6 +55,7 @@
 | date                  | date            | null: false                     |
 | time_id               | integer         | null: false                     |
 | detail                | text            | null: false                     |
+| user                  | references      | null: false, foreign_key: true  |
 
 ### Association
 -belongs_to :user
