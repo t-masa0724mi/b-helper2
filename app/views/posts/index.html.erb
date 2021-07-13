@@ -1,37 +1,64 @@
 <h2>募集一覧</h2>
 <div class="contents row">
-  <% @posts.each do |post| %>
-    <div class="content_post">
-      <div class="more">
-        <span><%= image_tag 'line_top.png' %></span>
-        <ul class="more_list">
-          <li>
-            <%= link_to '詳細', post_path(post.id), method: :get %>
-          </li>
-          <% if user_signed_in? && current_user.id == post.user_id %>
+  <ul class="post-lists">
+    <% @posts.each do |post| %>
+    <li class="list">
+      <div class="content_post">
+        <div class="more">
+          <span><%= image_tag 'line_top.png' %></span>
+          <ul class="more_list">
             <li>
-              <%= link_to '編集', edit_post_path(post.id), method: :get %>
+              <%= link_to '詳細', post_path(post.id), method: :get %>
             </li>
-            <li>
-              <%= link_to '削除', post_path(post.id), method: :delete %>
-            </li>
-          <% end %>
-        </ul>
-      </div>
-      <div class="post-date">
-        <%= post.game_day %>
-      </div>
-      <div class="post-time">
-        <%= post.game_time.name %>
-      </div>
-      <div class="post-detail">
-        <%= post.detail %>
-      </div>  
-      <span class="name">
+            <% if user_signed_in? && current_user.id == post.user_id %>
+              <li>
+                <%= link_to '編集', edit_post_path(post.id), method: :get %>
+              </li>
+              <li>
+                <%= link_to '削除', post_path(post.id), method: :delete %>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+        <div class="post-date">
+          <%= post.game_day %>
+        </div>
+        <div class="post-time">
+          <%= post.game_time.name %>
+        </div>
+        <div class="post-detail">
+          <%= post.detail %>
+        </div>  
+        <span class="name">
           <a href="/users/<%= post.user.id %>">
             <span>投稿者</span><%= post.user.nickname %>
           </a>
         </span>
-    </div>
-  <% end %>
+      </div>
+    </li>
+    <% end %>
+
+    <% if @posts.blank? %>
+      <li class="list">
+        <div class="content_post">
+        〜例〜
+          <div class="post-date">
+            2021-07-22
+          </div>
+          <div class="post-time">
+            08:00~10:00
+          </div>
+          <div class="post-detail">
+            よろしくお願いします！！！！
+          </div>  
+          <span class="name">
+            鈴木一郎
+            <span>投稿者</span>
+            </a>
+          </span>
+        </div>
+      </li>
+    <% end %>
+
+  </ul>
 </div>
