@@ -9,10 +9,40 @@
 
 ## トップページ
 <img width="1660" alt="69654549ffa320933603db0a40610191 (1)" src="https://user-images.githubusercontent.com/83623919/131807181-a85bcfb3-61b2-4f9b-9f95-4c5861077190.png">
-### 制作背景
-私自身が普段使用している草野球の助っ人募集の掲示板は、投稿に記載されているメールアドレスにメールを送って連絡を取り合うもので使いにくさと手間を感じました。1つにアプリケーション内で投稿もできてメッセージのやりとりができるものを作りたいと思ったのがきっかけです。
 
-## アプリケーションの利用方法
+## トップページ
+https://user-images.githubusercontent.com/83623919/131804757-7d052d13-7a3f-4419-ac7f-d7f1e195e3a1.mp4
+
+投稿がない時は投稿のサンプルを表示しています。
+
+## 投稿機能
+https://user-images.githubusercontent.com/83623919/131839688-1f8a517d-05ed-4eb9-94fd-6a1353d8a84f.mp4
+
+## 投稿編集機能
+https://user-images.githubusercontent.com/83623919/131842470-33cf8775-1506-4de4-905a-0a7298998c73.mp4
+
+## 投稿削除機能
+https://user-images.githubusercontent.com/83623919/131842628-c800c5a8-fd5d-415b-8c1e-b653ace00326.mp4
+
+## 投稿者のみが編集と削除ができる
+https://user-images.githubusercontent.com/83623919/131842957-db66bbd6-4d27-4313-ade3-8d214d72b458.mp4
+
+## メッセージ機能(1)
+https://user-images.githubusercontent.com/83623919/131845124-f5a06a5d-e76c-4b16-8b0f-f2d456f5a826.mp4
+
+## メッセージ機能(2)
+https://user-images.githubusercontent.com/83623919/131846907-962ba06c-61c3-4f67-8419-6ad674902896.mp4
+
+## メッセージ機能(3)
+https://user-images.githubusercontent.com/83623919/131847262-7173a8ea-952a-42ce-9875-a9251f295860.mp4
+
+ユーザー同士でメッセージが送りあえます
+
+## チャットルーム削除機能
+https://user-images.githubusercontent.com/83623919/131847583-07eef272-e476-4c60-811c-457111b6b70c.mp4
+
+チャットルームを削除するとメッセージも同時に削除され、
+相手側もチャットルームは削除されます。
 
 ### URL(デプロイ)
 <https://b-helper.herokuapp.com/>
@@ -24,6 +54,9 @@
 メールアドレス:test@email.com
 パスワード:aaaaaa
 ```
+
+### 作成動機
+私自身が普段使用している草野球の助っ人募集の掲示板は、投稿に記載されているメールアドレスにメールを送って連絡を取り合うもので使いにくさと手間を感じました。1つにアプリケーション内で投稿もできてメッセージのやりとりができるものを作りたいと思ったのがきっかけです。
 
 # テーブル設計
 
