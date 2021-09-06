@@ -15,8 +15,6 @@
       </a>
     </span>
     <%= link_to "メッセージを送る", new_room_path %>
-  </div>
-  <div class="container">
     <% if user_signed_in? %>
       <%= form_with(model: [@post, @comment], local: true) do |form| %>
         <%= form.text_area :text, placeholder: "コメントする", rows: "2" %>
