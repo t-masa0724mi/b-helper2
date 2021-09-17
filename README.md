@@ -8,8 +8,6 @@
 既存の掲示板では投稿に記載されているメールアドレスにメールを送り、そこからLINEや電話番号を交換して連絡をとっていました。
 多くのユーザーが感じる、「メールで連絡をとりあう不便さ」と「見ず知らずの人と連絡先を交換しなければいけないこと」を解決したアプリケーションです。
 
-## トップページ
-<img width="1660" alt="69654549ffa320933603db0a40610191 (1)" src="https://user-images.githubusercontent.com/83623919/131807181-a85bcfb3-61b2-4f9b-9f95-4c5861077190.png">
 
 ## トップページ
 https://user-images.githubusercontent.com/83623919/131804757-7d052d13-7a3f-4419-ac7f-d7f1e195e3a1.mp4
@@ -18,6 +16,8 @@ https://user-images.githubusercontent.com/83623919/131804757-7d052d13-7a3f-4419-
 
 ## 投稿機能
 https://user-images.githubusercontent.com/83623919/131839688-1f8a517d-05ed-4eb9-94fd-6a1353d8a84f.mp4
+
+日付はカレンダーで、時間はプルダウンで選択出来ます。
 
 ## 投稿編集機能
 https://user-images.githubusercontent.com/83623919/131842470-33cf8775-1506-4de4-905a-0a7298998c73.mp4
