@@ -45,6 +45,12 @@ https://user-images.githubusercontent.com/83623919/131847583-07eef272-e476-4c60-
 チャットルームを削除するとメッセージも同時に削除され、
 相手側もチャットルームは削除されます。
 
+
+## コメント機能
+https://user-images.githubusercontent.com/83623919/133925850-0617780e-15a5-498a-9eac-2be502473d10.mp4
+
+投稿の詳細画面からコメントすることが出来ます。
+
 ## URL(デプロイ)
 <https://b-helper.herokuapp.com/>
 
