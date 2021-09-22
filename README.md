@@ -145,3 +145,14 @@ https://user-images.githubusercontent.com/83623919/133925850-0617780e-15a5-498a-
 
 ### Association
 -belongs_to :user
+
+## comments テーブル
+| Column                | Type            | Options                         |
+|-----------------------|-----------------|---------------------------------|
+| text                  | text            |                                 |
+| user                  | integer         |                                 |
+| post                  | integer         |                                 |
+
+### Association
+-belongs_to :user
+-belongs_to :post
