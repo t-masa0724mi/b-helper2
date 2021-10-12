@@ -51,6 +51,9 @@ https://user-images.githubusercontent.com/83623919/133925850-0617780e-15a5-498a-
 
 投稿の詳細画面からコメントすることが出来ます。
 
+## インフラ図
+<img width="1187" alt="086b38320aaedb0cc9fe24c134b1287e" src="https://user-images.githubusercontent.com/83623919/136892808-d2d388b1-adc5-4366-a656-168c03771f8f.png">
+
 ## URL(デプロイ)
 <https://b-helper.herokuapp.com/>
 
