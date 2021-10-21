@@ -60,3 +60,12 @@
 #     # password: "please use keys"
 #   }
 server '52.199.194.47', user: 'ec2-user', roles: %w{app db web}
+
+set :deploy_to, '/var/www/b-helper2'
+
+set :ssh_options, {
+  port: 22,
+  forward_agent: true,
+  # ssh秘密鍵の場所
+  keys: ['~/Desktop/aws-and-infra-ssh-key2.pem']
+}
