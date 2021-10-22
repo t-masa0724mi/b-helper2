@@ -15,7 +15,7 @@
 ## アプリケーションの利用方法
 
 ### URL(デプロイ)
-<https://b-helper.herokuapp.com/>
+<http://b-helper.work/>
 
 ### テスト用アカウント
 ```md
