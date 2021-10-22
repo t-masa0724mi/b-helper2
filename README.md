@@ -59,8 +59,6 @@ https://user-images.githubusercontent.com/83623919/133925850-0617780e-15a5-498a-
 
 ## テスト用アカウント
 ```md
-認証ID:admin
-パスワード:2222
 メールアドレス:test@email.com
 パスワード:aaaaaa
 ```
